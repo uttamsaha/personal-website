@@ -1,7 +1,53 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.flexible-container {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding: 6%;
+}
+.font-color{
+    color:orange;
+}
+.half-width img {
+  width: 70%;
+}
+.flexible-container h1{
+    font-size: 55px;
+}
+.btn-color{
+    text-decoration: none;
+    background-color: #f15656;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+.mission-area h1{
+    text-align: center;
+}
+.mission-item img{
+    width: 30%;
+}
 
-h1 {
-  color: red;
+.mission-item{
+    width: 33%;
+    padding: 25px;
+    background-color: orange;
+    margin: 10px;
+
+}
+#bg-color1{
+    background-color: #e0e8e9;
+    border-radius: 20px;
+}
+#bg-color2{
+    background-color:#f1e1e1;
+    border-radius: 20px;
+}
+#bg-color3{
+    background-color:#f1e8cb;
+    border-radius: 20px;
 }

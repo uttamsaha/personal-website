@@ -1,53 +1,82 @@
 body {
   font-family: "Poppins", sans-serif;
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
 }
 .flexible-container {
   display: flex;
 }
+
 .half-width {
   width: 50%;
-  padding: 6%;
+  padding:3%;
 }
-.font-color{
-    color:orange;
+.font-color {
+  color: orange;
 }
 .half-width img {
   width: 70%;
-}
-.flexible-container h1{
-    font-size: 55px;
-}
-.btn-color{
-    text-decoration: none;
-    background-color: #f15656;
-    border-radius: 5px;
-    color:white;
-    font-weight: 500;
-    padding: 10px 30px;
-}
-.mission-area h1{
-    text-align: center;
-}
-.mission-item img{
-    width: 30%;
-}
-
-.mission-item{
-    width: 33%;
-    padding: 25px;
-    background-color: orange;
-    margin: 10px;
+  margin-top: -60px;
+  margin-left: 30px;
 
 }
-#bg-color1{
-    background-color: #e0e8e9;
-    border-radius: 20px;
+.fnt-size {
+  font-size: 70px;
+  word-spacing: 5px;
 }
-#bg-color2{
-    background-color:#f1e1e1;
-    border-radius: 20px;
+.btn-color {
+  text-decoration: none;
+  background-color: #f15656;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  padding: 12px 30px;
+  display: inline-block;
+  margin-top: 10px;
 }
-#bg-color3{
-    background-color:#f1e8cb;
-    border-radius: 20px;
+.mission-area h1 {
+  text-align: center;
+  font-size: 55px;
 }
+.mission-item img {
+  width: 36%;
+}
+
+.mission-item {
+  width: 33%;
+  padding: 25px;
+  background-color: orange;
+  margin: 10px;
+  text-align: justify;
+}
+.mission-area{
+    margin-bottom: 100px;
+}
+#bg-color1 {
+  background-color: #e0e8e9;
+  border-radius: 20px;
+}
+#bg-color2 {
+  background-color: #f1e1e1;
+  border-radius: 20px;
+}
+#bg-color3 {
+  background-color: #f1e8cb;
+  border-radius: 20px;
+}
+.custom-font {
+  font-family: "Yeseva One", cursive;
+
+}
+.left-border {
+  border-left: 5px solid #ee5353;
+
+  
+}
+
+

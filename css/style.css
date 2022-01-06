@@ -29,7 +29,7 @@ h1{
   font-size: 70px;
   word-spacing: 5px;
 }
-.btn-color {
+.btn-property {
   text-decoration: none;
   background-color: #f15656;
   border-radius: 5px;
@@ -79,4 +79,20 @@ h1{
   
 }
 
+.section-bg{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+    background-position-x: -2px;
+    
+    background-size: 18%;
+}
 
+.community-bg{
+       background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 1130px;
+    background-position-y: 295px;
+    background-size: 15%;
+
+}

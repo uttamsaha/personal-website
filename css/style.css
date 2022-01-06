@@ -1,12 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
-    padding-left: 7%;
-    padding-right: 7%;
-
+  padding-left: 7%;
+  padding-right: 7%;
 }
-h1{
-    font-size: 40px;
-    font-weight: 700;
+h1 {
+  font-size: 40px;
+  font-weight: 700;
 }
 .flexible-container {
   display: flex;
@@ -14,7 +13,7 @@ h1{
 
 .half-width {
   width: 50%;
-  padding:3%;
+  padding: 3%;
 }
 .font-color {
   color: orange;
@@ -23,7 +22,6 @@ h1{
   width: 70%;
   margin-top: -60px;
   margin-left: 30px;
-
 }
 .fnt-size {
   font-size: 70px;
@@ -54,8 +52,8 @@ h1{
   margin: 10px;
   text-align: justify;
 }
-.mission-area{
-    margin-bottom: 100px;
+.mission-area {
+  margin-bottom: 100px;
 }
 #bg-color1 {
   background-color: #e0e8e9;
@@ -71,28 +69,54 @@ h1{
 }
 .custom-font {
   font-family: "Yeseva One", cursive;
-
 }
 .left-border {
   border-left: 5px solid #ee5353;
+}
 
+.section-bg {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-y: 80px;
+  background-position-x: -2px;
+
+  background-size: 18%;
+}
+
+.community-bg {
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position-x: 1130px;
+  background-position-y: 295px;
+  background-size: 15%;
+  margin-bottom: 100px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+.fas, .fab{
+    font-size: 30px;
+    color: red;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+input[type="text"]{
+    width: 430px;
+    height: 40px;
+
+}
+
+input[type="email"]{
+    width: 430px;
+    height: 40px;
   
 }
-
-.section-bg{
-    background-image: url(../images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position-y: 80px;
-    background-position-x: -2px;
-    
-    background-size: 18%;
-}
-
-.community-bg{
-       background-image: url(../images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position-x: 1130px;
-    background-position-y: 295px;
-    background-size: 15%;
+input[type="number"]{
+    width: 430px;
+    height: 40px;
 
 }

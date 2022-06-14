@@ -6,7 +6,6 @@ main {
 body {
   margin: 0px;
   font-family: "Poppins", sans-serif;
-  
 }
 h1 {
   font-size: 40px;
@@ -14,6 +13,7 @@ h1 {
 }
 .flexible-container {
   display: flex;
+  /* flex-direction: column; */
 }
 
 .half-width {
@@ -77,7 +77,7 @@ h1 {
   word-spacing: 5px;
 }
 .custom-font-lobster {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 .left-border {
   border-left: 6px solid #ee5353;
@@ -137,7 +137,9 @@ input[type="number"] {
   width: 450px;
   height: 40px;
 }
-input,textarea{
+input,
+textarea {
+  width: 500px !important;
   padding-left: 10px;
   outline: none;
   border: 2px solid lightgray;
@@ -146,8 +148,8 @@ input,textarea{
   text-decoration: none;
   color: black;
 }
-.text-align-left{
-    margin-left: -150px;
+.text-align-left {
+  margin-left: -150px;
 }
 footer {
   width: 100%;
@@ -165,4 +167,49 @@ footer h1 {
 footer p {
   text-align: center;
   color: white;
+}
+
+@media (max-width: 688px) {
+  .half-width {
+    width: 100% !important;
+  }
+  .flexible-container {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .mission-item {
+    width: 70%;
+  }
+  .custom-font-yeseva-one {
+    font-size: 40px;
+  }
+  .my-mission-title {
+    font-size: 32px !important;
+  }
+  .working-hard-section h1 {
+    font-size: 28px;
+  }
+  .text-align-left {
+    margin: 0;
+  }
+  .community-section {
+    margin: 0;
+  }
+  .community-section h1 {
+    font-size: 28px;
+  }
+  .community-section img {
+    margin-top: 30px;
+  }
+  .contact-section h1 {
+    font-size: 30px;
+  }
+  .working-hard-section{
+    margin-bottom: 20px;
+  }
+  input,
+  textarea {
+    width: 300px !important;
+  }
 }

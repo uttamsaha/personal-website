@@ -30,6 +30,7 @@ h1 {
 }
 
 .btn-property {
+  display: block;
   text-decoration: none;
   background-color: #f15656;
   border-radius: 5px;
@@ -80,6 +81,7 @@ h1 {
 }
 .left-border {
   border-left: 6px solid #ee5353;
+  border-radius: 5px;
   padding-left: 12px;
 }
 
@@ -113,7 +115,9 @@ h1 {
 .fas,
 .fab {
   font-size: 30px;
-  color: red;
+  color: rgb(56, 52, 52);
+  margin-bottom: 12px;
+  font-size: 25px;
 }
 
 input {
@@ -132,6 +136,11 @@ input[type="email"] {
 input[type="number"] {
   width: 450px;
   height: 40px;
+}
+input,textarea{
+  padding-left: 10px;
+  outline: none;
+  border: 2px solid lightgray;
 }
 .text-decoration {
   text-decoration: none;
